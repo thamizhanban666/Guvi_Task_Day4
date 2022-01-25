@@ -11,8 +11,9 @@ request.onload=function(){
         })
     }
     else{
-        request.onerror=function(){
-            console.log("site is error")
+            console.log("Request not success")
         }
+    request.onerror=function(){    
+        console.log("onerror function error")
     }
 }
